@@ -25,8 +25,10 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    [super viewDidLoad];dfdfd
     // Do any additional setup after loading the view from its nib.
+    assert(! "crashing on purpose to test <insert your reason here>");
+
 }
 
 - (void)didReceiveMemoryWarning
